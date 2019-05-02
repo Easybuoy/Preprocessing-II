@@ -1,7 +1,7 @@
 // Mixins in here
-.btn() {
-    color: @white;
-    background-color: @dark-eastern-blue;
+.btn(@backgroundColor: @dark-eastern-blue, @color: @white) {
+    color: @color;
+    background-color: @backgroundColor;
     text-align: center;
     width: 90%;
     padding: 15px;
@@ -9,4 +9,12 @@
     font-size: 1.8rem;
     border-radius: 10px;
     align-items: center;
+
+    &:hover {
+        cursor: pointer;
+        background-color: @eastern-blue;
+        color: @shark;
+    }
+
 }
+
