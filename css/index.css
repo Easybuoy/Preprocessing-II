@@ -171,7 +171,7 @@ img {
 nav {
   display: flex;
   justify-content: baseline;
-  margin: 50px 0;
+  margin-top: 50px;
   padding-bottom: 1rem;
   border-bottom: 2px dashed #C0C0C0;
 }
@@ -179,7 +179,7 @@ nav .logo {
   width: 50%;
   font-weight: bold;
   font-family: 'Indie Flower', cursive;
-  font-size: 2.5rem;
+  font-size: 3.5rem;
 }
 nav ul {
   width: 100%;
@@ -253,4 +253,22 @@ nav a:hover {
 .home .content-pick .destination {
   width: 30%;
   margin-bottom: 30px;
+}
+.home .content-pick .destination .btn {
+  color: #FFFFFF;
+  background-color: #018080;
+  text-align: center;
+  width: 90%;
+  padding: 15px;
+  justify-content: center;
+  font-size: 1.8rem;
+  border-radius: 10px;
+  align-items: center;
+}
+header {
+  border-bottom: 2px dashed #C0C0C0;
+  padding-bottom: 2rem;
+}
+header h2 {
+  margin-top: 2rem;
 }
